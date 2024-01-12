@@ -46,6 +46,7 @@ public class Problems {
     }
 
     public static int Problem4(String s) {
+        System.out.println(s);
         int result = 0;
         int prevValue = 0;
 
@@ -76,6 +77,7 @@ public class Problems {
             }
             prevValue = value;
         }
+        System.out.println(result);
         return result;
     }
 
@@ -123,4 +125,5 @@ public class Problems {
         newNum[0] = 1;
         return newNum;
     }
+    public static void main(){}
 }
